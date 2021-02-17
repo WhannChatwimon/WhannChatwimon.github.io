@@ -1,0 +1,63 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.content{
+    max-width: 500px;
+}
+
+.container{
+    background-image: linear-gradient(to right,rgba(255,255,255,1),rgba(255,255,255,0.7)),url('https://images.unsplash.com/photo-1605379399642-870262d3d051?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1081&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 120px;
+}
+
+.avatar{
+    width: 190px;
+    height: 190px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 0px 0px black;
+}
+
+.name{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.job{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about{
+    font-size: 18px;
+    font-weight: 300;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.contact{
+    margin-bottom: 30px;
+}
+
+.contact-item{
+    margin-bottom: 4px;
+}
+
+.contact-icon{
+    margin-right: 12px;
+    width: 16px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+}
